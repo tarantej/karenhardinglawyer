@@ -1,0 +1,74 @@
+== Changelog ==
+
+v1.2.0
+-- Removed Theme Check Plugin issues.
+-- Added customizer enhancements
+-- Added a new option for Displaying Site title and Tagline
+-- Blog Comments style enhancements
+
+v1.1.5
+-- Added Skip links
+-- Added keyboard navigation
+
+v1.1.4
+-- Font Awesome upgrade to version 5.10.1
+
+v1.1.3
+-- added wp_body_open tag
+-- added translation file
+-- readme file changes
+
+v1.1.2
+-- CSS fixes
+-- Screenshot Change
+-- Sticky header issue fixed
+
+v1.1.1
+-- Preloader fix
+-- Dropdown enhancements
+—- added new demo
+
+v1.1.0
+-- Added Gallery post format
+-- CSS fixes
+—- sticky header menu button fix
+
+v1.0.10
+-- Site Title alignment
+—- css fixes
+
+v1.0.9
+-- Mobile Logo on toggle click fix
+—- added css styles
+
+v1.0.8
+-- code fixes
+—- contact form dropdown fixes
+—- blog post gap fix in mobile responsive devices
+
+v1.0.7
+-- added logo fixes
+—- added new customizer options
+—- added new medical demo
+
+v1.0.6
+-- restaurant demo added
+
+v1.0.5
+-- css fixes
+-- agency demo added
+
+v1.0.4
+-- syntax fixes
+
+v1.0.3
+-- bug fixes
+
+v1.0.2
+-- css fixes
+
+v1.0.1
+-- css fixes
+
+v1.0.0
+--initial release
