@@ -1,0 +1,3847 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"kreativa\n"
+"POT-Creation-Date: "
+"2017-07-21 02:14+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: imaginem "
+"<imagine.themes@gmail."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html__;esc_attr_e;"
+"esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"1.8.12\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: "
+"js\n"
+
+#: 404.php:19
+#: framework/options/options-data.php:594
+#: template-parts/header-title.php:63
+msgid "404 Page not Found!"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"Would you like to search "
+"for the page"
+msgstr ""
+
+#: comments.php:3
+#: page-comments.php:3
+msgid ""
+"This post is password "
+"protected. Enter the "
+"password to view any "
+"comments."
+msgstr ""
+
+#: comments.php:42
+#: page-comments.php:39
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: comments.php:56
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:57
+msgid "Email (required)"
+msgstr ""
+
+#: comments.php:58
+#: framework/metaboxes/events-metaboxes.php:150
+msgid "Website"
+msgstr ""
+
+#: comments.php:63
+msgid "Message"
+msgstr ""
+
+#: comments.php:63
+msgid "Message..."
+msgstr ""
+
+#: comments.php:64
+#: comments.php:65
+msgid "Leave a message"
+msgstr ""
+
+#: comments.php:66
+#, php-format
+msgid ""
+"You must be %slogged in"
+"%s to post a message."
+msgstr ""
+
+#: comments.php:67
+#: comments.php:79
+#, php-format
+msgid ""
+"Logged in as %s. %sLog "
+"out &raquo;%s"
+msgstr ""
+
+#: comments.php:67
+#: comments.php:79
+msgid ""
+"Log out of this account"
+msgstr ""
+
+#: comments.php:70
+msgid "Post Message"
+msgstr ""
+
+#: comments.php:75
+msgid "Comment"
+msgstr ""
+
+#: comments.php:75
+msgid "Comment..."
+msgstr ""
+
+#: comments.php:76
+#: comments.php:77
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:78
+#, php-format
+msgid ""
+"You must be %slogged in"
+"%s to post a comment."
+msgstr ""
+
+#: comments.php:82
+msgid "Post Comment"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:334
+#: framework/admin/tgm/tgm-init.php:189
+msgid ""
+"Install Required Plugins"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:335
+#: framework/admin/tgm/tgm-init.php:190
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:337
+#: framework/admin/tgm/tgm-init.php:192
+#, php-format
+msgid ""
+"Installing Plugin: %s"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:339
+#: framework/admin/tgm/tgm-init.php:194
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:340
+#: framework/admin/tgm/tgm-init.php:195
+msgid ""
+"Something went wrong "
+"with the plugin API."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:392
+#: framework/admin/tgm/tgm-init.php:247
+msgid ""
+"Return to Required "
+"Plugins Installer"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:393
+#: framework/admin/tgm/class-tgm-plugin-activation.php:912
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2618
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3665
+msgid ""
+"Return to the Dashboard"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:394
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3244
+#: framework/admin/tgm/tgm-init.php:248
+msgid ""
+"Plugin activated "
+"successfully."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:395
+#: framework/admin/tgm/tgm-init.php:249
+msgid ""
+"The following plugin was "
+"activated successfully:"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:397
+#: framework/admin/tgm/tgm-init.php:251
+#, php-format
+msgid ""
+"No action taken. Plugin "
+"%1$s was already active."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:399
+#: framework/admin/tgm/tgm-init.php:253
+#, php-format
+msgid ""
+"Plugin not activated. A "
+"higher version of %s is "
+"needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:401
+#: framework/admin/tgm/tgm-init.php:255
+#, php-format
+msgid ""
+"All plugins installed "
+"and activated "
+"successfully. %1$s"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:402
+#: framework/admin/tgm/tgm-init.php:256
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:403
+#: framework/admin/tgm/tgm-init.php:257
+msgid ""
+"There are one or more "
+"required or recommended "
+"plugins to install, "
+"update or activate."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:404
+#: framework/admin/tgm/tgm-init.php:258
+msgid ""
+"Please contact the "
+"administrator of this "
+"site for help."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:607
+msgid ""
+"This plugin needs to be "
+"updated to be compatible "
+"with your theme."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin "
+"package does not contain "
+"a folder with the "
+"desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:1019
+#: framework/admin/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the "
+"plugin provider and ask "
+"them to package their "
+"plugin according to the "
+"WordPress guidelines."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin "
+"package consists of more "
+"than one file, but the "
+"files are not packaged "
+"in a folder."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2377
+msgid ""
+"WordPress Repository"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2404
+msgid ""
+"Installed But Not "
+"Activated"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2406
+#: framework/metaboxes/events-metaboxes.php:69
+#: framework/metaboxes/proofing-metaboxes.php:100
+msgid "Active"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2412
+msgid ""
+"Required Update not "
+"Available"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2583
+msgid ""
+"Minimum required version:"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2618
+msgid ""
+"No plugins to install, "
+"update or activate."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2769
+msgid ""
+"Upgrade message from the "
+"plugin author:"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2811
+#: framework/metaboxes/post-metaboxes.php:38
+msgid "Activate"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2842
+msgid ""
+"No plugins were selected "
+"to be installed. No "
+"action taken."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2844
+msgid ""
+"No plugins were selected "
+"to be updated. No action "
+"taken."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2885
+msgid ""
+"No plugins are available "
+"to be installed at this "
+"time."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2887
+msgid ""
+"No plugins are available "
+"to be updated at this "
+"time."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:2993
+msgid ""
+"No plugins were selected "
+"to be activated. No "
+"action taken."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3019
+msgid ""
+"No plugins are available "
+"to be activated at this "
+"time."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3243
+msgid ""
+"Plugin activation failed."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid ""
+"Updating Plugin %1$s "
+"(%2$d/%3$d)"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid ""
+"An error occurred while "
+"installing %1$s: <strong>"
+"%2$s</strong>."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid ""
+"The installation of %1$s "
+"failed."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and "
+"activation process is "
+"starting. This process "
+"may take a while on some "
+"hosts, so please be "
+"patient."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid ""
+"%1$s installed and "
+"activated successfully."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3594
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3594
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3595
+msgid ""
+"All installations and "
+"activations have been "
+"completed."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid ""
+"Installing and "
+"Activating Plugin %1$s "
+"(%2$d/%3$d)"
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process "
+"is starting. This "
+"process may take a while "
+"on some hosts, so please "
+"be patient."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid ""
+"%1$s installed "
+"successfully."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3603
+msgid ""
+"All installations have "
+"been completed."
+msgstr ""
+
+#: framework/admin/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid ""
+"Installing Plugin %1$s "
+"(%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/theme-functions.php:1400
+msgid "Unlock Project"
+msgstr ""
+
+#: framework/functions/theme-functions.php:1896
+msgid ""
+"Theme Options set "
+"slideshow"
+msgstr ""
+
+#: framework/functions/theme-functions.php:1897
+msgid ""
+"Slideshow using Image "
+"Attachments"
+msgstr ""
+
+#: framework/functions/theme-functions.php:1898
+msgid ""
+"Video using Fullscreen "
+"post (Youtube/HTML5)"
+msgstr ""
+
+#: framework/functions/theme-functions.php:1899
+msgid "none"
+msgstr ""
+
+#: framework/functions/theme-functions.php:1988
+msgid "Posted in "
+msgstr ""
+
+#: framework/functions/theme-functions.php:1989
+#, php-format
+msgid ""
+"<span class=\"sep"
+"\">Posted on </span><a "
+"href=\"%1$s\" title="
+"\"%2$s\" rel=\"bookmark"
+"\"><time class=\"entry-"
+"date\" datetime=\"%3$s\" "
+"pubdate>%4$s</time></"
+"a><span class=\"by-author"
+"\"> <span class=\"sep\"> "
+"by </span> <span class="
+"\"author vcard\"><a "
+"class=\"url fn n\" href="
+"\"%5$s\" title=\"%6$s\" "
+"rel=\"author\">%7$s</a></"
+"span></span>"
+msgstr ""
+
+#: framework/functions/theme-functions.php:1995
+#, php-format
+msgid ""
+"View all posts by %s"
+msgstr ""
+
+#: framework/functions/theme-functions.php:2192
+msgid "year"
+msgstr ""
+
+#: framework/functions/theme-functions.php:2193
+msgid "month"
+msgstr ""
+
+#: framework/functions/theme-functions.php:2194
+msgid "week"
+msgstr ""
+
+#: framework/functions/theme-functions.php:2195
+msgid "day"
+msgstr ""
+
+#: framework/functions/theme-functions.php:2196
+msgid "hour"
+msgstr ""
+
+#: framework/functions/theme-functions.php:2197
+msgid "minute"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:34
+msgid "Client Metabox"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:40
+msgid "Client Settings"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:43
+#: framework/metaboxes/events-metaboxes.php:172
+#: framework/metaboxes/events-metaboxes.php:175
+#: framework/metaboxes/events-metaboxes.php:198
+#: framework/metaboxes/fullscreen-metaboxes.php:119
+#: framework/metaboxes/fullscreen-metaboxes.php:312
+#: framework/metaboxes/fullscreen-metaboxes.php:319
+#: framework/metaboxes/page-metaboxes.php:58
+#: framework/metaboxes/portfolio-metaboxes.php:113
+#: framework/metaboxes/portfolio-metaboxes.php:116
+#: framework/metaboxes/portfolio-metaboxes.php:144
+#: framework/metaboxes/portfolio-metaboxes.php:147
+#: framework/metaboxes/portfolio-metaboxes.php:151
+#: framework/metaboxes/post-metaboxes.php:17
+#: framework/metaboxes/post-metaboxes.php:20
+#: framework/metaboxes/post-metaboxes.php:43
+#: framework/metaboxes/post-metaboxes.php:46
+#: framework/metaboxes/post-metaboxes.php:74
+#: framework/metaboxes/proofing-metaboxes.php:133
+#: framework/metaboxes/proofing-metaboxes.php:136
+#: framework/metaboxes/proofing-metaboxes.php:140
+#: framework/metaboxes/woocommerce-metaboxes.php:34
+msgid "Page Settings"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:47
+#: framework/metaboxes/events-metaboxes.php:48
+#: framework/metaboxes/page-metaboxes.php:27
+#: framework/metaboxes/portfolio-metaboxes.php:47
+#: framework/metaboxes/post-metaboxes.php:24
+#: framework/metaboxes/proofing-metaboxes.php:54
+#: framework/metaboxes/woocommerce-metaboxes.php:27
+msgid "Attach Images"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:49
+#: framework/metaboxes/events-metaboxes.php:50
+#: framework/metaboxes/fullscreen-metaboxes.php:130
+#: framework/metaboxes/page-metaboxes.php:29
+#: framework/metaboxes/portfolio-metaboxes.php:49
+#: framework/metaboxes/post-metaboxes.php:26
+#: framework/metaboxes/proofing-metaboxes.php:56
+#: framework/metaboxes/woocommerce-metaboxes.php:29
+msgid "Upload Images"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:51
+#: framework/metaboxes/page-metaboxes.php:31
+#: framework/metaboxes/woocommerce-metaboxes.php:31
+msgid ""
+"Attach images. Images "
+"can be used to generate "
+"fullscreen slideshows "
+"using Page settings."
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:54
+msgid "Client Notice"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:58
+msgid ""
+"Add a Password to this "
+"client page to password "
+"protect all proofing "
+"galleries associated "
+"with the client."
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:61
+msgid "Client Name"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:64
+msgid "Client Name."
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:68
+msgid ""
+"Description for client"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:71
+msgid ""
+"This description is "
+"displayed for client."
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:75
+#: framework/metaboxes/fullscreen-metaboxes.php:315
+msgid "Header Settings"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:80
+msgid ""
+"Background Image for "
+"Client Password Page"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:85
+msgid ""
+"Upload or provide full "
+"url of background. eg. "
+"http://www.domain.com/"
+"path/image.jpg"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:88
+#: framework/metaboxes/events-metaboxes.php:203
+#: framework/metaboxes/fullscreen-metaboxes.php:324
+#: framework/metaboxes/page-metaboxes.php:63
+#: framework/metaboxes/portfolio-metaboxes.php:156
+#: framework/metaboxes/post-metaboxes.php:79
+#: framework/metaboxes/proofing-metaboxes.php:145
+#: framework/metaboxes/woocommerce-metaboxes.php:39
+msgid "Switch Menu"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:91
+#: framework/metaboxes/events-metaboxes.php:206
+#: framework/metaboxes/fullscreen-metaboxes.php:327
+#: framework/metaboxes/page-metaboxes.php:66
+#: framework/metaboxes/portfolio-metaboxes.php:159
+#: framework/metaboxes/post-metaboxes.php:82
+#: framework/metaboxes/proofing-metaboxes.php:148
+#: framework/metaboxes/woocommerce-metaboxes.php:42
+msgid ""
+"Select a different menu "
+"for this page"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:95
+#: framework/metaboxes/client-metaboxes.php:98
+#: framework/metaboxes/client-metaboxes.php:102
+#: framework/metaboxes/events-metaboxes.php:222
+#: framework/metaboxes/events-metaboxes.php:225
+#: framework/metaboxes/events-metaboxes.php:229
+#: framework/metaboxes/page-metaboxes.php:82
+#: framework/metaboxes/page-metaboxes.php:85
+#: framework/metaboxes/page-metaboxes.php:89
+#: framework/metaboxes/portfolio-metaboxes.php:175
+#: framework/metaboxes/post-metaboxes.php:98
+#: framework/metaboxes/proofing-metaboxes.php:164
+#: framework/metaboxes/woocommerce-metaboxes.php:58
+#: framework/metaboxes/woocommerce-metaboxes.php:61
+msgid "Page Background"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:107
+#: framework/metaboxes/events-metaboxes.php:234
+#: framework/metaboxes/page-metaboxes.php:94
+#: framework/metaboxes/portfolio-metaboxes.php:180
+#: framework/metaboxes/post-metaboxes.php:103
+#: framework/metaboxes/proofing-metaboxes.php:169
+#: framework/metaboxes/woocommerce-metaboxes.php:70
+msgid "Display Page Media"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:111
+#: framework/metaboxes/events-metaboxes.php:238
+#: framework/metaboxes/page-metaboxes.php:98
+#: framework/metaboxes/portfolio-metaboxes.php:184
+#: framework/metaboxes/post-metaboxes.php:107
+#: framework/metaboxes/proofing-metaboxes.php:173
+#: framework/metaboxes/woocommerce-metaboxes.php:74
+msgid ""
+"Attach 1 image to "
+"display one image or "
+"Multiples images to "
+"display slideshow"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:115
+#: framework/metaboxes/events-metaboxes.php:242
+#: framework/metaboxes/page-metaboxes.php:102
+#: framework/metaboxes/portfolio-metaboxes.php:188
+#: framework/metaboxes/post-metaboxes.php:111
+#: framework/metaboxes/proofing-metaboxes.php:177
+#: framework/metaboxes/woocommerce-metaboxes.php:78
+msgid ""
+"Page Media using "
+"Fullscreen Video Post"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:119
+#: framework/metaboxes/events-metaboxes.php:246
+#: framework/metaboxes/page-metaboxes.php:106
+#: framework/metaboxes/portfolio-metaboxes.php:192
+#: framework/metaboxes/post-metaboxes.php:115
+#: framework/metaboxes/proofing-metaboxes.php:181
+#: framework/metaboxes/woocommerce-metaboxes.php:82
+msgid ""
+"Based on Display media "
+"choice"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:123
+#: framework/metaboxes/events-metaboxes.php:250
+#: framework/metaboxes/page-metaboxes.php:110
+#: framework/metaboxes/portfolio-metaboxes.php:196
+#: framework/metaboxes/post-metaboxes.php:119
+#: framework/metaboxes/proofing-metaboxes.php:185
+#: framework/metaboxes/woocommerce-metaboxes.php:86
+#: framework/options/options-data.php:1151
+msgid "Page Color"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:126
+#: framework/metaboxes/events-metaboxes.php:253
+#: framework/metaboxes/page-metaboxes.php:113
+#: framework/metaboxes/portfolio-metaboxes.php:199
+#: framework/metaboxes/post-metaboxes.php:122
+#: framework/metaboxes/proofing-metaboxes.php:188
+#: framework/metaboxes/woocommerce-metaboxes.php:89
+msgid "Page color"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:130
+#: framework/metaboxes/events-metaboxes.php:257
+#: framework/metaboxes/page-metaboxes.php:117
+#: framework/metaboxes/portfolio-metaboxes.php:203
+#: framework/metaboxes/post-metaboxes.php:126
+#: framework/metaboxes/proofing-metaboxes.php:192
+#: framework/metaboxes/woocommerce-metaboxes.php:93
+msgid "Page Opacity"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:133
+#: framework/metaboxes/events-metaboxes.php:260
+#: framework/metaboxes/page-metaboxes.php:120
+#: framework/metaboxes/portfolio-metaboxes.php:206
+#: framework/metaboxes/post-metaboxes.php:129
+msgid ""
+"Set Page color and "
+"adjust opacity to apply "
+"opacity."
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:136
+#: framework/metaboxes/events-metaboxes.php:216
+#: framework/metaboxes/events-metaboxes.php:263
+#: framework/metaboxes/page-metaboxes.php:76
+#: framework/metaboxes/page-metaboxes.php:123
+#: framework/metaboxes/portfolio-metaboxes.php:169
+#: framework/metaboxes/portfolio-metaboxes.php:209
+#: framework/metaboxes/post-metaboxes.php:92
+#: framework/metaboxes/post-metaboxes.php:132
+#: framework/metaboxes/proofing-metaboxes.php:158
+#: framework/metaboxes/proofing-metaboxes.php:198
+#: framework/metaboxes/woocommerce-metaboxes.php:52
+#: framework/metaboxes/woocommerce-metaboxes.php:99
+msgid "Default"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:137
+#: framework/metaboxes/events-metaboxes.php:264
+#: framework/metaboxes/page-metaboxes.php:124
+#: framework/metaboxes/portfolio-metaboxes.php:210
+#: framework/metaboxes/post-metaboxes.php:133
+#: framework/metaboxes/proofing-metaboxes.php:199
+#: framework/metaboxes/woocommerce-metaboxes.php:100
+msgid "Transparent"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:138
+#: framework/metaboxes/events-metaboxes.php:265
+#: framework/metaboxes/page-metaboxes.php:125
+#: framework/metaboxes/portfolio-metaboxes.php:211
+#: framework/metaboxes/post-metaboxes.php:134
+#: framework/metaboxes/proofing-metaboxes.php:200
+#: framework/metaboxes/woocommerce-metaboxes.php:101
+msgid "25%"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:139
+#: framework/metaboxes/events-metaboxes.php:266
+#: framework/metaboxes/page-metaboxes.php:126
+#: framework/metaboxes/portfolio-metaboxes.php:212
+#: framework/metaboxes/post-metaboxes.php:135
+#: framework/metaboxes/proofing-metaboxes.php:201
+#: framework/metaboxes/woocommerce-metaboxes.php:102
+msgid "50%"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:140
+#: framework/metaboxes/events-metaboxes.php:267
+#: framework/metaboxes/page-metaboxes.php:127
+#: framework/metaboxes/portfolio-metaboxes.php:213
+#: framework/metaboxes/post-metaboxes.php:136
+#: framework/metaboxes/proofing-metaboxes.php:202
+#: framework/metaboxes/woocommerce-metaboxes.php:103
+msgid "75%"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:141
+#: framework/metaboxes/events-metaboxes.php:268
+#: framework/metaboxes/page-metaboxes.php:128
+#: framework/metaboxes/portfolio-metaboxes.php:214
+#: framework/metaboxes/post-metaboxes.php:137
+#: framework/metaboxes/proofing-metaboxes.php:203
+#: framework/metaboxes/woocommerce-metaboxes.php:104
+msgid "Opaque"
+msgstr ""
+
+#: framework/metaboxes/client-metaboxes.php:150
+msgid "Client Options"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:30
+msgid "Events Metabox"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:36
+msgid "Event Settings"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:39
+msgid "Events Settings"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:43
+msgid "Event Options"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:52
+#: framework/metaboxes/portfolio-metaboxes.php:51
+#: framework/metaboxes/post-metaboxes.php:28
+msgid ""
+"Attach images to this "
+"page/post."
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:55
+msgid ""
+"Gallery description text"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:59
+msgid ""
+"Description text to "
+"displayed with evernts "
+"gallery thumbnail"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:63
+#: framework/metaboxes/events-metaboxes.php:67
+msgid "Event Status"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:70
+msgid "Hide from Listings"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:71
+msgid ""
+"Display as Postponed"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:72
+msgid ""
+"Display as Cancelled"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:76
+msgid "Event Date"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:81
+#: framework/metaboxes/proofing-metaboxes.php:112
+msgid "Start date"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:90
+msgid "End date"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:94
+msgid "Venue"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:98
+msgid "Venue Name"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:106
+msgid "Street"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:115
+msgid "State"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:124
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:132
+msgid "Event country"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:141
+msgid "Phone"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:159
+msgid ""
+"Cost Currency Symbol"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:168
+msgid "Cost Value"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:179
+#: framework/metaboxes/page-metaboxes.php:39
+#: framework/metaboxes/portfolio-metaboxes.php:125
+#: framework/metaboxes/post-metaboxes.php:55
+msgid "Page Style"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:183
+#: framework/metaboxes/page-metaboxes.php:43
+#: framework/metaboxes/portfolio-metaboxes.php:129
+#: framework/metaboxes/post-metaboxes.php:59
+msgid ""
+"Note: Edge to Edge - "
+"same as 100% Width "
+"Template"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:191
+#: framework/metaboxes/page-metaboxes.php:51
+#: framework/metaboxes/portfolio-metaboxes.php:137
+#: framework/metaboxes/post-metaboxes.php:67
+msgid "Choice of Sidebar"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:194
+#: framework/metaboxes/page-metaboxes.php:54
+#: framework/metaboxes/portfolio-metaboxes.php:140
+#: framework/metaboxes/post-metaboxes.php:70
+msgid ""
+"For Sidebar Active Pages "
+"and Posts"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:210
+#: framework/metaboxes/events-metaboxes.php:213
+#: framework/metaboxes/page-metaboxes.php:70
+#: framework/metaboxes/page-metaboxes.php:73
+#: framework/metaboxes/portfolio-metaboxes.php:163
+#: framework/metaboxes/portfolio-metaboxes.php:166
+#: framework/metaboxes/post-metaboxes.php:86
+#: framework/metaboxes/post-metaboxes.php:89
+#: framework/metaboxes/proofing-metaboxes.php:152
+#: framework/metaboxes/proofing-metaboxes.php:155
+#: framework/metaboxes/woocommerce-metaboxes.php:46
+#: framework/metaboxes/woocommerce-metaboxes.php:49
+#: framework/options/options-data.php:800
+msgid "Page Title"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:217
+#: framework/metaboxes/page-metaboxes.php:77
+#: framework/metaboxes/portfolio-metaboxes.php:170
+#: framework/metaboxes/post-metaboxes.php:93
+#: framework/metaboxes/proofing-metaboxes.php:159
+#: framework/metaboxes/woocommerce-metaboxes.php:53
+msgid "Show"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:218
+#: framework/metaboxes/page-metaboxes.php:78
+#: framework/metaboxes/portfolio-metaboxes.php:171
+#: framework/metaboxes/post-metaboxes.php:94
+#: framework/metaboxes/proofing-metaboxes.php:160
+#: framework/metaboxes/woocommerce-metaboxes.php:54
+msgid "Hide"
+msgstr ""
+
+#: framework/metaboxes/events-metaboxes.php:277
+msgid "Events Options"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:11
+msgid "Button Link URL"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:14
+msgid ""
+"Fullscreen Slideshow, "
+"Swiper Slide, Thumbnail "
+"Gallery & Photowall links"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:18
+msgid "Button Text"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:21
+msgid ""
+"Fullscreen Slideshow, "
+"Swiper Slide & Photowall "
+"Button text"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:25
+msgid "Purchase URL"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:28
+msgid "Purchase link."
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:31
+msgid ""
+"UI color ( Slideshow "
+"images )"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:110
+msgid "Fullscreen Metabox"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:116
+msgid "Fullscreen Settings"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:123
+msgid "Fullscreen Options"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:128
+msgid "Add Images"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:132
+msgid ""
+"Add images from Media "
+"Uploader or by uploading "
+"new images."
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:135
+msgid ""
+"Used as Thumbnail "
+"gallery description text"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:139
+msgid ""
+"Description to display "
+"in thumbnail gallery."
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:143
+msgid ""
+"Page Background color"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:146
+#: framework/options/options-data.php:1156
+#: framework/options/options-data.php:1157
+msgid ""
+"Page background color"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:150
+msgid ""
+"Display Titles & "
+"Description"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:154
+msgid ""
+"Display title and "
+"description"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:156
+#: framework/metaboxes/fullscreen-metaboxes.php:197
+msgid "Enable"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:157
+#: framework/metaboxes/fullscreen-metaboxes.php:198
+#: framework/metaboxes/post-metaboxes.php:39
+#: framework/metaboxes/proofing-metaboxes.php:103
+msgid "Disable"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:161
+msgid "Fullscreen Type"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:167
+msgid ""
+"Fullscreen page type"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:178
+#: framework/metaboxes/fullscreen-metaboxes.php:183
+msgid "Fotorama Fill mode"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:185
+msgid "Fill"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:186
+msgid "Fit"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:190
+#: framework/metaboxes/fullscreen-metaboxes.php:195
+msgid "Fotorama Thumbnails"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:202
+msgid "Revolution Slider"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:206
+msgid ""
+"Display Revolution Slider"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:210
+msgid "Title Font"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:216
+msgid "Title font"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:220
+msgid ""
+"Slideshow/Static Title "
+"Font"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:225
+msgid "Title font size"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:229
+msgid ""
+"Slideshow/Static Title "
+"size in pixels. Only "
+"numerical value eg. 52"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:233
+msgid "Title line-height"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:237
+msgid ""
+"Slideshow/Static Title "
+"letter spacing in "
+"pixels. Only numerical "
+"value eg. 2"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:241
+msgid ""
+"Title letter-spacing"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:245
+msgid ""
+"Slideshow/Static Title "
+"line height in pixels. "
+"Only numerical value eg. "
+"2"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:249
+msgid ""
+"Fill to activate Static "
+"Text"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:255
+msgid ""
+"For Cover Photo, "
+"Particles, Kenburns & "
+"Static Slideshow Text"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:259
+msgid "Static Title"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:268
+msgid "Static Decription"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:277
+msgid "Static Button Text"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:286
+msgid "Static Button Link"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:290
+msgid "For Photowall"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:295
+msgid "Photowall type"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:297
+msgid ""
+"Lightbox from Image "
+"Attachments"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:298
+msgid ""
+"Custom Links from Image "
+"Attachments"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:299
+msgid ""
+"With Portfolio items"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:303
+msgid ""
+"Portfolio Worktypes to "
+"populate Photowall "
+"( enter comma seperated "
+"slugs )"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:309
+msgid ""
+"Enter comma seperated "
+"slugs. Leave Blank to "
+"list all."
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:335
+msgid ""
+"Audio & Video Settings"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:339
+msgid "Media Settings"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:345
+msgid ""
+"Slideshow Audio files "
+"(optional)"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:349
+msgid ""
+"Enter MP3 file path for "
+"Slideshow. ( full url )"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:359
+msgid ""
+"Enter OGA file path for "
+"Slideshow ( full url )"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:369
+msgid ""
+"Enter M4A file path for "
+"Slideshow ( full url )"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:373
+#: framework/metaboxes/post-metaboxes.php:191
+msgid "Youtube video ID"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:377
+msgid ""
+"Youtube IDs eg: "
+"ylLzyHk54Z0. Youtube "
+"video IDs can be found "
+"at the end of youtube "
+"url - http://www.youtube."
+"com/watch?v=ylLzyHk54Z0"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:381
+#: framework/metaboxes/post-metaboxes.php:151
+#: framework/metaboxes/post-metaboxes.php:154
+msgid "HTML5 Video"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:385
+msgid "Poster image"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:394
+msgid "MP4 file"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:403
+msgid "WEBM file"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:412
+msgid "OGV file"
+msgstr ""
+
+#: framework/metaboxes/fullscreen-metaboxes.php:421
+msgid "Featured Options"
+msgstr ""
+
+#: framework/metaboxes/page-metaboxes.php:9
+#: framework/metaboxes/page-metaboxes.php:138
+#: framework/metaboxes/post-metaboxes.php:11
+msgid ""
+"General Page Metabox"
+msgstr ""
+
+#: framework/metaboxes/page-metaboxes.php:15
+#: framework/metaboxes/page-metaboxes.php:18
+#: framework/metaboxes/page-metaboxes.php:22
+#: framework/metaboxes/woocommerce-metaboxes.php:15
+#: framework/metaboxes/woocommerce-metaboxes.php:18
+#: framework/metaboxes/woocommerce-metaboxes.php:22
+msgid "Page Options"
+msgstr ""
+
+#: framework/metaboxes/page-metaboxes.php:34
+#: framework/metaboxes/portfolio-metaboxes.php:120
+#: framework/metaboxes/post-metaboxes.php:50
+msgid "Page Layout"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:29
+msgid "Portfolio Metabox"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:35
+#: framework/metaboxes/portfolio-metaboxes.php:38
+msgid "Portfolio Settings"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:42
+#: framework/metaboxes/portfolio-metaboxes.php:223
+msgid "Portfolio Options"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:54
+msgid ""
+"Description for gallery "
+"thumbnail ( Portfolio "
+"Gallery )"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:57
+msgid ""
+"This description is "
+"displayed below each "
+"thumbnail."
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:61
+msgid ""
+"Portfolio AJAX "
+"description"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:65
+msgid ""
+"Used for Ajax item "
+"description."
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:69
+msgid ""
+"Gallery thumbnail options"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:74
+msgid ""
+"Gallery thumbnail link "
+"type"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:78
+msgid ""
+"Link type of portfolio "
+"image in portfolio "
+"galleries."
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:87
+msgid ""
+"Fill for Lightbox Video"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:92
+msgid ""
+"To display a Lightbox "
+"Video. Eg: http://www."
+"youtube.com/watch?"
+"v=D78TYCEG4 , http://"
+"vimeo.com/172881"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:96
+msgid ""
+"Fill for Custom Link"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:101
+msgid ""
+"For any link with full "
+"url"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:105
+msgid ""
+"Custom Thumbnail. "
+"(optional)"
+msgstr ""
+
+#: framework/metaboxes/portfolio-metaboxes.php:109
+msgid "Thumbnail URL."
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:31
+msgid "Author Bio"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:34
+#: framework/options/options-data.php:787
+#: framework/options/options-data.php:788
+msgid "Display Author Bio"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:37
+msgid ""
+"Theme options default"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:145
+msgid "Video Metabox"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:158
+msgid "M4V File URL"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:162
+msgid ""
+"Enter M4V File URL "
+"( Required )"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:165
+msgid "OGV File URL"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:169
+msgid "Enter OGV File URL"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:172
+#: framework/metaboxes/post-metaboxes.php:177
+msgid "Poster Image"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:180
+#: framework/metaboxes/post-metaboxes.php:184
+msgid "Video Hosts"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:187
+msgid "Youtube Video ID"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:194
+msgid "Vimeo Video ID"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:198
+msgid "Vimeo video ID"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:201
+msgid ""
+"Daily Motion Video ID"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:205
+msgid ""
+"Daily Motion video ID"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:208
+msgid "Google Video ID"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:212
+msgid "Google video ID"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:215
+msgid "Video Embed Code"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:219
+msgid ""
+"Video Embed code. You "
+"can grab embed codes "
+"from hosted video sites."
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:226
+msgid "Audio Metabox"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:232
+#: framework/metaboxes/post-metaboxes.php:235
+#: framework/metaboxes/post-metaboxes.php:239
+msgid "Audio Embed code"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:243
+msgid ""
+"eg. Soundcloud embed code"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:246
+#: framework/metaboxes/post-metaboxes.php:249
+msgid "HTML5 Audio"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:253
+msgid "MP3 file"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:257
+msgid ""
+"Please provide full url. "
+"eg. http://www.domain."
+"com/path/audiofile.mp3"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:260
+msgid "M4A file"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:264
+msgid ""
+"Please provide full url. "
+"eg. <code>http://www."
+"domain.com/path/"
+"audiofile.m4a"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:267
+msgid "OGA file"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:271
+msgid ""
+"Please provide full url. "
+"eg. http://www.domain."
+"com/path/audiofile.ogg"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:278
+msgid "Link Metabox"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:284
+msgid "Link URL"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:288
+msgid ""
+"Please provide full url. "
+"eg. http://www.domain."
+"com/path/"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:295
+msgid "Image Metabox"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:301
+#: framework/metaboxes/post-metaboxes.php:305
+msgid "Enable Lightbox"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:306
+msgid "Disable Lighbox"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:314
+msgid "Quote Metabox"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:320
+msgid "Quote"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:324
+msgid "Enter quote here"
+msgstr ""
+
+#: framework/metaboxes/post-metaboxes.php:327
+#: framework/metaboxes/post-metaboxes.php:331
+msgid "Author"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:41
+msgid "Proofing Metabox"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:47
+#: framework/metaboxes/proofing-metaboxes.php:50
+msgid "Proofing Settings"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:58
+msgid ""
+"Attach images for "
+"proofing."
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:61
+msgid ""
+"Proofing Grid Columns"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:64
+#: framework/metaboxes/proofing-metaboxes.php:77
+msgid "Page opacity"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:67
+msgid "4"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:68
+msgid "3"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:69
+msgid "2"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:70
+msgid "1"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:74
+msgid ""
+"Proofing Grid Format"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:80
+msgid "Landscape"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:81
+msgid "Masonry"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:82
+msgid "Portrait"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:86
+msgid "Assign a Client"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:90
+msgid ""
+"Note :Select client "
+"PhotoProofing is for."
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:94
+#: framework/metaboxes/proofing-metaboxes.php:98
+msgid "Proofing Status"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:101
+msgid "Lock"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:102
+msgid "Locked for Download"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:107
+msgid "Proofing Date"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:116
+#: framework/metaboxes/proofing-metaboxes.php:120
+msgid "Location"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:124
+msgid "Download Link"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:129
+msgid ""
+"Zipped link for client "
+"image download"
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:195
+#: framework/metaboxes/woocommerce-metaboxes.php:96
+msgid ""
+"Set Page background "
+"color and adjust opacity "
+"to apply opacity."
+msgstr ""
+
+#: framework/metaboxes/proofing-metaboxes.php:212
+msgid "Proofing Options"
+msgstr ""
+
+#: framework/metaboxes/woocommerce-metaboxes.php:9
+msgid "Woocommerce Metabox"
+msgstr ""
+
+#: framework/metaboxes/woocommerce-metaboxes.php:65
+msgid ""
+"Page Background / Top "
+"Media"
+msgstr ""
+
+#: framework/metaboxes/woocommerce-metaboxes.php:113
+msgid "WooCommerce Options"
+msgstr ""
+
+#: framework/metaboxgen/metaboxgen.php:7
+msgid "Default Menu"
+msgstr ""
+
+#: framework/metaboxgen/metaboxgen.php:151
+#: framework/metaboxgen/metaboxgen.php:153
+#: framework/metaboxgen/metaboxgen.php:177
+#: framework/metaboxgen/metaboxgen.php:179
+msgid "Edit Gallery"
+msgstr ""
+
+#: framework/metaboxgen/metaboxgen.php:218
+msgid "No images found."
+msgstr ""
+
+#: framework/metaboxgen/metaboxgen.php:336
+msgid ""
+"Client selected has "
+"password protection."
+msgstr ""
+
+#: framework/metaboxgen/metaboxgen.php:338
+msgid ""
+"Gallery password "
+"protected."
+msgstr ""
+
+#: framework/metaboxgen/metaboxgen.php:342
+msgid ""
+"Client selected does not "
+"have password protection."
+msgstr ""
+
+#: framework/metaboxgen/metaboxgen.php:344
+msgid ""
+"The gallery will be "
+"available for everyone."
+msgstr ""
+
+#: framework/metaboxgen/metaboxgen.php:346
+msgid ""
+"Add a password to the "
+"Client page to protect "
+"the gallery."
+msgstr ""
+
+#: framework/options/admin/options-framework.php:183
+msgid "Options Imported!"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:209
+msgid "Invalid Import"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:211
+msgid "Saved Settings!"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:303
+#: framework/options/admin/options-framework.php:438
+msgid ""
+"Default options restored."
+msgstr ""
+
+#: framework/options/admin/options-framework.php:367
+msgid ""
+"Theme Options Loading"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:371
+msgid "Settings Saved!"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:372
+msgid ""
+"Instagram Cache Reset!"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:373
+msgid ""
+"Instagram Cache Reset "
+"Error!"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:374
+msgid "Error Saving!"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:380
+#: framework/options/admin/options-framework.php:537
+msgid "Theme Options"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:383
+msgid "Save all Options"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:404
+msgid "Restore Defaults"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:404
+msgid ""
+"Click OK to reset. Any "
+"theme settings will be "
+"lost!"
+msgstr ""
+
+#: framework/options/admin/options-framework.php:479
+msgid "Options saved."
+msgstr ""
+
+#: framework/options/admin/options-interface.php:233
+#: framework/options/options-data.php:1368
+msgid "Import Options"
+msgstr ""
+
+#: framework/options/admin/options-medialibrary-uploader.php:72
+msgid "Upload"
+msgstr ""
+
+#: framework/options/admin/options-medialibrary-uploader.php:99
+msgid "View File"
+msgstr ""
+
+#: framework/options/options-data.php:66
+msgid "General"
+msgstr ""
+
+#: framework/options/options-data.php:70
+msgid "Theme Style"
+msgstr ""
+
+#: framework/options/options-data.php:71
+msgid ""
+"Styles found in theme "
+"root : style.css / style-"
+"light.css"
+msgstr ""
+
+#: framework/options/options-data.php:80
+msgid ""
+"Disable Comments in Pages"
+msgstr ""
+
+#: framework/options/options-data.php:81
+msgid ""
+"Disables comments in "
+"pages even if comments "
+"are enabled in page "
+"settings."
+msgstr ""
+
+#: framework/options/options-data.php:86
+msgid ""
+"Add Facebook Opengraph "
+"Meta tags"
+msgstr ""
+
+#: framework/options/options-data.php:87
+msgid ""
+"Adds meta tags to "
+"recognize featured "
+"image , title and "
+"decription used in posts "
+"and pages."
+msgstr ""
+
+#: framework/options/options-data.php:92
+msgid "Under Construction"
+msgstr ""
+
+#: framework/options/options-data.php:96
+msgid ""
+"Enable Maintenance Mode"
+msgstr ""
+
+#: framework/options/options-data.php:97
+msgid ""
+"Note: Maintenance screen "
+"is not active for "
+"administrators. Admins "
+"will need to logout to "
+"see maintenance screen."
+msgstr ""
+
+#: framework/options/options-data.php:102
+#: framework/options/options-data.php:103
+msgid ""
+"Upload Maintenance "
+"screen background."
+msgstr ""
+
+#: framework/options/options-data.php:107
+#: framework/options/options-data.php:108
+msgid "Text color"
+msgstr ""
+
+#: framework/options/options-data.php:113
+msgid ""
+"Under Construction "
+"Message"
+msgstr ""
+
+#: framework/options/options-data.php:114
+msgid ""
+"Under construction "
+"message."
+msgstr ""
+
+#: framework/options/options-data.php:119
+msgid "API's"
+msgstr ""
+
+#: framework/options/options-data.php:123
+msgid ""
+"Google Map API Key. "
+"Required to display "
+"Google map"
+msgstr ""
+
+#: framework/options/options-data.php:124
+msgid ""
+"Goole map now requires "
+"an API key to display "
+"google maps. How to get "
+"a "
+msgstr ""
+
+#: framework/options/options-data.php:130
+msgid ""
+"Instagram Token. "
+"Required to display "
+"Instagram"
+msgstr ""
+
+#: framework/options/options-data.php:131
+msgid ""
+"The Instagram API "
+"requires a Token to "
+"display user "
+"authenticated photos. "
+"How to get "
+msgstr ""
+
+#: framework/options/options-data.php:137
+#: framework/options/options-data.php:138
+msgid ""
+"Instagram Image limit"
+msgstr ""
+
+#: framework/options/options-data.php:147
+msgid ""
+"Instagram Transition"
+msgstr ""
+
+#: framework/options/options-data.php:148
+msgid ""
+"Instagram Transition type"
+msgstr ""
+
+#: framework/options/options-data.php:173
+#: framework/options/options-data.php:174
+msgid ""
+"Instagram label to "
+"display"
+msgstr ""
+
+#: framework/options/options-data.php:180
+msgid ""
+"Enable Footer Instagram"
+msgstr ""
+
+#: framework/options/options-data.php:181
+msgid ""
+"Enable Footer Instagram "
+"Carousel"
+msgstr ""
+
+#: framework/options/options-data.php:186
+#: framework/options/options-data.php:190
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/options/options-data.php:191
+msgid ""
+"You can include custom "
+"CSS to this field. eg. ."
+"entry-title h1 { font-"
+"family: 'Lobster', "
+"cursive; }"
+msgstr ""
+
+#: framework/options/options-data.php:197
+msgid "Mobile Specific CSS"
+msgstr ""
+
+#: framework/options/options-data.php:198
+msgid ""
+"Only for mobile specific "
+"CSS. eg. .entry-title h1 "
+"{ font-family: "
+"'Lobster', cursive; }"
+msgstr ""
+
+#: framework/options/options-data.php:205
+#: framework/options/options-data.php:209
+msgid "Vertical Menu Logo"
+msgstr ""
+
+#: framework/options/options-data.php:210
+msgid ""
+"Upload logo for header"
+msgstr ""
+
+#: framework/options/options-data.php:214
+msgid ""
+"Vertical Menu Logo Width"
+msgstr ""
+
+#: framework/options/options-data.php:215
+msgid ""
+"Vertical Menu Logo width "
+"in pixels"
+msgstr ""
+
+#: framework/options/options-data.php:224
+msgid "Top Space"
+msgstr ""
+
+#: framework/options/options-data.php:225
+#: framework/options/options-data.php:264
+msgid ""
+"Top spacing for logo ( 0 "
+"sets default )"
+msgstr ""
+
+#: framework/options/options-data.php:234
+msgid "Left Space"
+msgstr ""
+
+#: framework/options/options-data.php:235
+msgid ""
+"Left spacing for logo "
+"( 0 sets default )"
+msgstr ""
+
+#: framework/options/options-data.php:244
+msgid "Responsive Logo"
+msgstr ""
+
+#: framework/options/options-data.php:248
+msgid ""
+"Responsive/Mobile Logo"
+msgstr ""
+
+#: framework/options/options-data.php:249
+msgid ""
+"Upload logo for "
+"responsive layout."
+msgstr ""
+
+#: framework/options/options-data.php:253
+msgid ""
+"Responsive Logo Width"
+msgstr ""
+
+#: framework/options/options-data.php:254
+msgid ""
+"Responsive Logo width in "
+"pixels"
+msgstr ""
+
+#: framework/options/options-data.php:263
+msgid ""
+"Responsive Logo Top Space"
+msgstr ""
+
+#: framework/options/options-data.php:273
+#: framework/options/options-data.php:277
+msgid "Footer Logo"
+msgstr ""
+
+#: framework/options/options-data.php:278
+msgid ""
+"Upload logo for footer."
+msgstr ""
+
+#: framework/options/options-data.php:282
+msgid "Footer Logo Width"
+msgstr ""
+
+#: framework/options/options-data.php:283
+msgid ""
+"Footer Logo width in "
+"pixels"
+msgstr ""
+
+#: framework/options/options-data.php:292
+msgid "WP Login Logo"
+msgstr ""
+
+#: framework/options/options-data.php:296
+msgid ""
+"Custom WordPress Login "
+"Page Logo"
+msgstr ""
+
+#: framework/options/options-data.php:297
+msgid ""
+"Upload logo for "
+"WordPress Login Page"
+msgstr ""
+
+#: framework/options/options-data.php:301
+msgid "WP Login logo Width"
+msgstr ""
+
+#: framework/options/options-data.php:302
+msgid ""
+"Define Logo width in "
+"pixels"
+msgstr ""
+
+#: framework/options/options-data.php:311
+msgid ""
+"WP Login logo Height"
+msgstr ""
+
+#: framework/options/options-data.php:312
+msgid ""
+"Define Logo height in "
+"pixels"
+msgstr ""
+
+#: framework/options/options-data.php:321
+msgid "Right Click"
+msgstr ""
+
+#: framework/options/options-data.php:325
+msgid "Disable Right Click"
+msgstr ""
+
+#: framework/options/options-data.php:326
+msgid ""
+"Disable right clicking."
+msgstr ""
+
+#: framework/options/options-data.php:331
+msgid "Right Click Message"
+msgstr ""
+
+#: framework/options/options-data.php:332
+msgid ""
+"This text appears in the "
+"popup when right click "
+"is disabled."
+msgstr ""
+
+#: framework/options/options-data.php:337
+msgid "Message font"
+msgstr ""
+
+#: framework/options/options-data.php:338
+msgid ""
+"Select font for message"
+msgstr ""
+
+#: framework/options/options-data.php:345
+#: framework/options/options-data.php:346
+msgid "Message text color"
+msgstr ""
+
+#: framework/options/options-data.php:351
+#: framework/options/options-data.php:352
+#: framework/options/options-data.php:382
+msgid "Background color"
+msgstr ""
+
+#: framework/options/options-data.php:357
+msgid "Message title size"
+msgstr ""
+
+#: framework/options/options-data.php:358
+msgid ""
+"Message title size in "
+"pixels. eg. 19"
+msgstr ""
+
+#: framework/options/options-data.php:364
+msgid ""
+"Message title letter "
+"spacing"
+msgstr ""
+
+#: framework/options/options-data.php:365
+msgid ""
+"Message title letter "
+"spacing in pixels. eg. 1"
+msgstr ""
+
+#: framework/options/options-data.php:371
+msgid ""
+"Message title weight"
+msgstr ""
+
+#: framework/options/options-data.php:372
+msgid ""
+"Message title weight. "
+"eg. 100, 200, 300, 400, "
+"500, 600, 700, 800, 900"
+msgstr ""
+
+#: framework/options/options-data.php:378
+msgid "Background"
+msgstr ""
+
+#: framework/options/options-data.php:383
+msgid ""
+"No color selected by "
+"default."
+msgstr ""
+
+#: framework/options/options-data.php:388
+msgid ""
+"General Background "
+"Fullscreen Slideshow Page"
+msgstr ""
+
+#: framework/options/options-data.php:389
+msgid ""
+"General Background "
+"Fullscreen Slideshow "
+"Page."
+msgstr ""
+
+#: framework/options/options-data.php:396
+msgid ""
+"Background image "
+"( required for archive "
+"pages )"
+msgstr ""
+
+#: framework/options/options-data.php:397
+#: framework/options/options-data.php:589
+msgid ""
+"Upload background image"
+msgstr ""
+
+#: framework/options/options-data.php:401
+msgid ""
+"Apply Archive Page "
+"Opacity/Color to all"
+msgstr ""
+
+#: framework/options/options-data.php:402
+msgid ""
+"Apply Archive Page "
+"opacity to all pages."
+msgstr ""
+
+#: framework/options/options-data.php:407
+#: framework/options/options-data.php:408
+msgid "Archive Page color"
+msgstr ""
+
+#: framework/options/options-data.php:413
+msgid ""
+"Archive Page opacity "
+"( default 85 )"
+msgstr ""
+
+#: framework/options/options-data.php:414
+msgid ""
+"Archive Page opacity"
+msgstr ""
+
+#: framework/options/options-data.php:423
+msgid "Fullscreen Homepage"
+msgstr ""
+
+#: framework/options/options-data.php:427
+msgid ""
+"Enable Fullscreen Hompage"
+msgstr ""
+
+#: framework/options/options-data.php:428
+msgid ""
+"Enable fullscreen "
+"homepage. Please ensure "
+"wp-admin > Settings > "
+"Readings is not set to "
+"any static pages."
+msgstr ""
+
+#: framework/options/options-data.php:433
+msgid ""
+"Select Fullscreen Home"
+msgstr ""
+
+#: framework/options/options-data.php:434
+msgid ""
+"Requires existing "
+"fullscreen posts."
+msgstr ""
+
+#: framework/options/options-data.php:442
+msgid "Fullscreen Media"
+msgstr ""
+
+#: framework/options/options-data.php:449
+msgid "Loop Audio Clip"
+msgstr ""
+
+#: framework/options/options-data.php:450
+msgid ""
+"Loop the audio clip for "
+"fullscreen slideshows"
+msgstr ""
+
+#: framework/options/options-data.php:455
+msgid "On-start volume"
+msgstr ""
+
+#: framework/options/options-data.php:456
+msgid ""
+"Volume to start with"
+msgstr ""
+
+#: framework/options/options-data.php:465
+msgid "Slideshow Settings"
+msgstr ""
+
+#: framework/options/options-data.php:468
+msgid ""
+"Disable Slideshow "
+"Progress Bar"
+msgstr ""
+
+#: framework/options/options-data.php:469
+msgid ""
+"Disable slideshow "
+"progress bar"
+msgstr ""
+
+#: framework/options/options-data.php:474
+msgid ""
+"Disable Slideshow Play "
+"button"
+msgstr ""
+
+#: framework/options/options-data.php:475
+msgid ""
+"Disable slideshow play "
+"button"
+msgstr ""
+
+#: framework/options/options-data.php:480
+msgid ""
+"Disable Slideshow "
+"Navigation Arrows"
+msgstr ""
+
+#: framework/options/options-data.php:481
+msgid ""
+"Disable navigation arrows"
+msgstr ""
+
+#: framework/options/options-data.php:486
+msgid ""
+"Disable Slideshow Count"
+msgstr ""
+
+#: framework/options/options-data.php:487
+msgid ""
+"Disable slideshow Count"
+msgstr ""
+
+#: framework/options/options-data.php:492
+msgid ""
+"Disable Slideshow "
+"Control bar"
+msgstr ""
+
+#: framework/options/options-data.php:493
+msgid ""
+"Disable slideshow "
+"Control bar"
+msgstr ""
+
+#: framework/options/options-data.php:499
+msgid "Transition"
+msgstr ""
+
+#: framework/options/options-data.php:500
+msgid "Transition type"
+msgstr ""
+
+#: framework/options/options-data.php:516
+msgid "Auto Play Slideshow"
+msgstr ""
+
+#: framework/options/options-data.php:517
+msgid ""
+"Auto start slideshow on "
+"load"
+msgstr ""
+
+#: framework/options/options-data.php:522
+msgid "Pause on last slide"
+msgstr ""
+
+#: framework/options/options-data.php:523
+msgid ""
+"Pause on end of slideshow"
+msgstr ""
+
+#: framework/options/options-data.php:528
+msgid "Pause on hover"
+msgstr ""
+
+#: framework/options/options-data.php:529
+msgid ""
+"Pause slideshow on hover"
+msgstr ""
+
+#: framework/options/options-data.php:534
+msgid "Vertical center"
+msgstr ""
+
+#: framework/options/options-data.php:535
+msgid ""
+"Vertical center images"
+msgstr ""
+
+#: framework/options/options-data.php:540
+msgid "Horizontal center"
+msgstr ""
+
+#: framework/options/options-data.php:541
+msgid ""
+"Horizontal center images"
+msgstr ""
+
+#: framework/options/options-data.php:546
+msgid "Fit portrait"
+msgstr ""
+
+#: framework/options/options-data.php:547
+msgid ""
+"Portrait images will not "
+"exceed browser height"
+msgstr ""
+
+#: framework/options/options-data.php:552
+msgid "Fit Landscape"
+msgstr ""
+
+#: framework/options/options-data.php:553
+msgid ""
+"Landscape images will "
+"not exceed browser width"
+msgstr ""
+
+#: framework/options/options-data.php:558
+msgid "Fit Always"
+msgstr ""
+
+#: framework/options/options-data.php:559
+msgid ""
+"Image will never exceed "
+"browser width or height."
+msgstr ""
+
+#: framework/options/options-data.php:564
+msgid "Slide Interval"
+msgstr ""
+
+#: framework/options/options-data.php:565
+msgid ""
+"Length between "
+"transitions"
+msgstr ""
+
+#: framework/options/options-data.php:574
+msgid "Transition speed"
+msgstr ""
+
+#: framework/options/options-data.php:575
+msgid "Speed of transition"
+msgstr ""
+
+#: framework/options/options-data.php:584
+msgid "404"
+msgstr ""
+
+#: framework/options/options-data.php:588
+msgid ""
+"404 Background image "
+"( for page not found. "
+"Optional )"
+msgstr ""
+
+#: framework/options/options-data.php:593
+msgid "404 Page title"
+msgstr ""
+
+#: framework/options/options-data.php:600
+#: framework/options/options-data.php:601
+msgid "404 Title color"
+msgstr ""
+
+#: framework/options/options-data.php:606
+msgid "Events"
+msgstr ""
+
+#: framework/options/options-data.php:610
+#: framework/options/options-data.php:611
+msgid "Events Time format"
+msgstr ""
+
+#: framework/options/options-data.php:621
+#: framework/options/options-data.php:622
+msgid "Event gallery title"
+msgstr ""
+
+#: framework/options/options-data.php:628
+msgid ""
+"Prefered events archive "
+"page"
+msgstr ""
+
+#: framework/options/options-data.php:629
+msgid ""
+"Prefered events archive "
+"page."
+msgstr ""
+
+#: framework/options/options-data.php:636
+msgid ""
+"Number of thumbnail "
+"columns for Events "
+"archive listing"
+msgstr ""
+
+#: framework/options/options-data.php:637
+msgid ""
+"Affects events archives. "
+"eg. Browsing Events "
+"category links."
+msgstr ""
+
+#: framework/options/options-data.php:646
+msgid "Postponed message"
+msgstr ""
+
+#: framework/options/options-data.php:647
+msgid ""
+"Message for postponed "
+"events"
+msgstr ""
+
+#: framework/options/options-data.php:653
+msgid "Cancelled message"
+msgstr ""
+
+#: framework/options/options-data.php:654
+msgid ""
+"Message for cancelled "
+"events"
+msgstr ""
+
+#: framework/options/options-data.php:660
+msgid "Event Time Text"
+msgstr ""
+
+#: framework/options/options-data.php:661
+msgid ""
+"Text to use for Event "
+"time"
+msgstr ""
+
+#: framework/options/options-data.php:667
+msgid "Event Location Text"
+msgstr ""
+
+#: framework/options/options-data.php:668
+msgid ""
+"Text to use for Event "
+"location"
+msgstr ""
+
+#: framework/options/options-data.php:674
+msgid "Event Price Text"
+msgstr ""
+
+#: framework/options/options-data.php:675
+msgid ""
+"Text to use for Event "
+"price"
+msgstr ""
+
+#: framework/options/options-data.php:681
+msgid "Portfolios"
+msgstr ""
+
+#: framework/options/options-data.php:685
+msgid "Enable comments"
+msgstr ""
+
+#: framework/options/options-data.php:686
+msgid ""
+"Enable comments for "
+"portfolio items. "
+"Switching off will "
+"disable comments and "
+"comment information on "
+"portfolio thumbnails."
+msgstr ""
+
+#: framework/options/options-data.php:691
+#: framework/options/options-data.php:692
+msgid ""
+"Default portfolio "
+"archive list orientation"
+msgstr ""
+
+#: framework/options/options-data.php:701
+msgid ""
+"Prefered portfolio "
+"archive page"
+msgstr ""
+
+#: framework/options/options-data.php:702
+msgid ""
+"Prefered portfolio "
+"archive page."
+msgstr ""
+
+#: framework/options/options-data.php:709
+msgid ""
+"Number of thumbnail "
+"columns for Portfolio "
+"archive listing"
+msgstr ""
+
+#: framework/options/options-data.php:710
+msgid ""
+"Affects portfolio "
+"archives. eg. Browsing "
+"portfolio category links."
+msgstr ""
+
+#: framework/options/options-data.php:719
+msgid ""
+"Enable Recent Portfolio "
+"blocks"
+msgstr ""
+
+#: framework/options/options-data.php:720
+msgid ""
+"Enable recent portfolio "
+"block in portfolio "
+"details page."
+msgstr ""
+
+#: framework/options/options-data.php:725
+#: framework/options/options-data.php:726
+msgid ""
+"Display Related "
+"portfolio orientation"
+msgstr ""
+
+#: framework/options/options-data.php:735
+msgid ""
+"Portfolio permalink slug "
+"(Important Note below)"
+msgstr ""
+
+#: framework/options/options-data.php:736
+msgid ""
+"Slug name used in "
+"portfolio permalink. "
+"IMPORTANT NOTE: After "
+"changing this please "
+"make sure to flush the "
+"old cache by visiting wp-"
+"admin > Settings > "
+"Permalinks"
+msgstr ""
+
+#: framework/options/options-data.php:742
+msgid ""
+"Portfolio refered as "
+"( Singular )"
+msgstr ""
+
+#: framework/options/options-data.php:743
+msgid ""
+"Text name to refer "
+"portfolio as a singular "
+"( one item )"
+msgstr ""
+
+#: framework/options/options-data.php:749
+msgid ""
+"Portfolio refered as "
+"( Plural )"
+msgstr ""
+
+#: framework/options/options-data.php:750
+msgid ""
+"Text name to refer "
+"portfolio as plural "
+"( many items )"
+msgstr ""
+
+#: framework/options/options-data.php:756
+msgid ""
+"Portfolio carousel "
+"heading"
+msgstr ""
+
+#: framework/options/options-data.php:757
+msgid ""
+"Portfolio carousel "
+"heading displayed in "
+"single post page"
+msgstr ""
+
+#: framework/options/options-data.php:763
+#: framework/options/options-data.php:764
+msgid ""
+"Ajax Portfolio View "
+"Project text"
+msgstr ""
+
+#: framework/options/options-data.php:770
+msgid ""
+"Filter tag for all Items"
+msgstr ""
+
+#: framework/options/options-data.php:771
+msgid ""
+"Displays as a filterable "
+"tag in place of all items"
+msgstr ""
+
+#: framework/options/options-data.php:777
+msgid "Blog"
+msgstr ""
+
+#: framework/options/options-data.php:781
+msgid ""
+"Display Fullpost Archives"
+msgstr ""
+
+#: framework/options/options-data.php:782
+msgid ""
+"Display fullpost archives"
+msgstr ""
+
+#: framework/options/options-data.php:793
+msgid "Read more text"
+msgstr ""
+
+#: framework/options/options-data.php:794
+msgid ""
+"Enter text for Read more"
+msgstr ""
+
+#: framework/options/options-data.php:804
+msgid "Hide Page title"
+msgstr ""
+
+#: framework/options/options-data.php:805
+msgid ""
+"Hide Page title from all "
+"pages"
+msgstr ""
+
+#: framework/options/options-data.php:810
+#: framework/options/options-data.php:811
+msgid ""
+"Page title background "
+"color"
+msgstr ""
+
+#: framework/options/options-data.php:816
+#: framework/options/options-data.php:817
+msgid "Page title color"
+msgstr ""
+
+#: framework/options/options-data.php:822
+msgid "Page title size"
+msgstr ""
+
+#: framework/options/options-data.php:823
+msgid ""
+"Page title size in "
+"pixels. eg. 42"
+msgstr ""
+
+#: framework/options/options-data.php:829
+msgid ""
+"Page title letter spacing"
+msgstr ""
+
+#: framework/options/options-data.php:830
+msgid ""
+"Page title letter "
+"spacing in pixels. eg. 6"
+msgstr ""
+
+#: framework/options/options-data.php:836
+msgid "Page title weight"
+msgstr ""
+
+#: framework/options/options-data.php:837
+msgid ""
+"Page title weight. eg. "
+"100, 200, 300, 400, 500, "
+"600, 700, 800, 900"
+msgstr ""
+
+#: framework/options/options-data.php:843
+msgid "Menu Text"
+msgstr ""
+
+#: framework/options/options-data.php:847
+#: framework/options/options-data.php:848
+msgid "Capitalize Menu"
+msgstr ""
+
+#: framework/options/options-data.php:853
+msgid "Menu text size"
+msgstr ""
+
+#: framework/options/options-data.php:854
+msgid ""
+"Menu text size. eg. 14"
+msgstr ""
+
+#: framework/options/options-data.php:860
+msgid ""
+"Menu text letter spacing"
+msgstr ""
+
+#: framework/options/options-data.php:861
+msgid ""
+"Menu text letter spacing "
+"in pixels. eg. 2"
+msgstr ""
+
+#: framework/options/options-data.php:867
+msgid "Menu text weight"
+msgstr ""
+
+#: framework/options/options-data.php:868
+msgid ""
+"Menu text weight. eg. "
+"100, 200, 300, 400, 500, "
+"600, 700, 800, 900"
+msgstr ""
+
+#: framework/options/options-data.php:874
+msgid "Content Text"
+msgstr ""
+
+#: framework/options/options-data.php:878
+msgid "Content Font Size"
+msgstr ""
+
+#: framework/options/options-data.php:879
+msgid ""
+"Contents font size in "
+"pixels."
+msgstr ""
+
+#: framework/options/options-data.php:885
+msgid "Content line height"
+msgstr ""
+
+#: framework/options/options-data.php:886
+msgid ""
+"Contents line height in "
+"pixels."
+msgstr ""
+
+#: framework/options/options-data.php:892
+msgid ""
+"Content letter spacing"
+msgstr ""
+
+#: framework/options/options-data.php:893
+msgid ""
+"Content letter spacing "
+"in pixels."
+msgstr ""
+
+#: framework/options/options-data.php:899
+msgid "Content font weight"
+msgstr ""
+
+#: framework/options/options-data.php:900
+msgid ""
+"Content font weight."
+"(100,200,300,400,500,600,700,800,900)"
+msgstr ""
+
+#: framework/options/options-data.php:906
+msgid "Lightbox"
+msgstr ""
+
+#: framework/options/options-data.php:910
+msgid ""
+"Disable Lightbox "
+"fullscreen button"
+msgstr ""
+
+#: framework/options/options-data.php:911
+msgid ""
+"Disable Lightbox "
+"fullscreen"
+msgstr ""
+
+#: framework/options/options-data.php:916
+#: framework/options/options-data.php:917
+msgid ""
+"Disable Lightbox actual "
+"size toggle"
+msgstr ""
+
+#: framework/options/options-data.php:922
+#: framework/options/options-data.php:923
+msgid ""
+"Disable Lightbox zoom "
+"controls"
+msgstr ""
+
+#: framework/options/options-data.php:928
+#: framework/options/options-data.php:929
+msgid ""
+"Disable Lightbox "
+"autoplay button"
+msgstr ""
+
+#: framework/options/options-data.php:934
+#: framework/options/options-data.php:935
+msgid ""
+"Disable Lightbox count "
+"button"
+msgstr ""
+
+#: framework/options/options-data.php:940
+#: framework/options/options-data.php:941
+msgid "Lightbox Transition"
+msgstr ""
+
+#: framework/options/options-data.php:981
+#: framework/options/options-data.php:982
+msgid ""
+"Disable Lightbox title"
+msgstr ""
+
+#: framework/options/options-data.php:987
+#: framework/options/options-data.php:988
+msgid ""
+"Lightbox background color"
+msgstr ""
+
+#: framework/options/options-data.php:993
+#: framework/options/options-data.php:994
+msgid ""
+"Lightbox element "
+"background color"
+msgstr ""
+
+#: framework/options/options-data.php:999
+#: framework/options/options-data.php:1000
+msgid ""
+"Lightbox element color"
+msgstr ""
+
+#: framework/options/options-data.php:1005
+msgid "Sidebars"
+msgstr ""
+
+#: framework/options/options-data.php:1012
+msgid "Sidebar "
+msgstr ""
+
+#: framework/options/options-data.php:1015
+msgid "Sidebar Name"
+msgstr ""
+
+#: framework/options/options-data.php:1016
+msgid ""
+"Activate sidebars by "
+"naming them."
+msgstr ""
+
+#: framework/options/options-data.php:1022
+msgid "Sidebar Description"
+msgstr ""
+
+#: framework/options/options-data.php:1023
+msgid ""
+"A small description to "
+"display inside the "
+"widget to easily "
+"identify it. Widget "
+"description is only "
+"shown in admin mode "
+"inside the widget."
+msgstr ""
+
+#: framework/options/options-data.php:1030
+msgid "Accent Color"
+msgstr ""
+
+#: framework/options/options-data.php:1035
+#: framework/options/options-data.php:1036
+msgid ""
+"Accent color sitewide"
+msgstr ""
+
+#: framework/options/options-data.php:1041
+msgid "Vertical Menu Color"
+msgstr ""
+
+#: framework/options/options-data.php:1046
+#: framework/options/options-data.php:1047
+msgid ""
+"Use an image as Vertical "
+"menu background"
+msgstr ""
+
+#: framework/options/options-data.php:1051
+#: framework/options/options-data.php:1052
+msgid ""
+"Menu background color"
+msgstr ""
+
+#: framework/options/options-data.php:1057
+#: framework/options/options-data.php:1058
+msgid "Menu link color"
+msgstr ""
+
+#: framework/options/options-data.php:1063
+#: framework/options/options-data.php:1064
+msgid ""
+"Menu horizontal lines"
+msgstr ""
+
+#: framework/options/options-data.php:1069
+#: framework/options/options-data.php:1070
+msgid ""
+"Menu link hover color"
+msgstr ""
+
+#: framework/options/options-data.php:1075
+#: framework/options/options-data.php:1076
+msgid ""
+"Opened Menu link color"
+msgstr ""
+
+#: framework/options/options-data.php:1081
+#: framework/options/options-data.php:1082
+msgid "Social icon color"
+msgstr ""
+
+#: framework/options/options-data.php:1087
+#: framework/options/options-data.php:1088
+msgid "Footer text color"
+msgstr ""
+
+#: framework/options/options-data.php:1093
+msgid "Responsive Menu"
+msgstr ""
+
+#: framework/options/options-data.php:1098
+#: framework/options/options-data.php:1099
+msgid ""
+"Responsive Menu bar color"
+msgstr ""
+
+#: framework/options/options-data.php:1104
+#: framework/options/options-data.php:1105
+msgid ""
+"Responsive Menu toggle "
+"icon color"
+msgstr ""
+
+#: framework/options/options-data.php:1110
+#: framework/options/options-data.php:1111
+msgid ""
+"Responsive Menu "
+"background color"
+msgstr ""
+
+#: framework/options/options-data.php:1116
+#: framework/options/options-data.php:1117
+msgid ""
+"Use an image as "
+"Responsive menu "
+"background"
+msgstr ""
+
+#: framework/options/options-data.php:1121
+#: framework/options/options-data.php:1122
+msgid ""
+"Responsive Menu text and "
+"icon color"
+msgstr ""
+
+#: framework/options/options-data.php:1127
+#: framework/options/options-data.php:1128
+msgid ""
+"Responsive Menu hover "
+"color"
+msgstr ""
+
+#: framework/options/options-data.php:1133
+#: framework/options/options-data.php:1134
+msgid ""
+"Responsive Opened Menu "
+"color"
+msgstr ""
+
+#: framework/options/options-data.php:1139
+#: framework/options/options-data.php:1140
+msgid ""
+"Responsive Menu line "
+"colors"
+msgstr ""
+
+#: framework/options/options-data.php:1145
+#: framework/options/options-data.php:1146
+msgid ""
+"Responsive Footer text "
+"colors"
+msgstr ""
+
+#: framework/options/options-data.php:1162
+#: framework/options/options-data.php:1163
+msgid "Page contents color"
+msgstr ""
+
+#: framework/options/options-data.php:1168
+#: framework/options/options-data.php:1169
+msgid ""
+"Page contents heading "
+"color"
+msgstr ""
+
+#: framework/options/options-data.php:1174
+msgid "Sidebar Color"
+msgstr ""
+
+#: framework/options/options-data.php:1179
+#: framework/options/options-data.php:1180
+msgid ""
+"Sidebar heading color"
+msgstr ""
+
+#: framework/options/options-data.php:1185
+#: framework/options/options-data.php:1186
+msgid "Sidebar link color"
+msgstr ""
+
+#: framework/options/options-data.php:1191
+#: framework/options/options-data.php:1192
+msgid "Sidebar text color"
+msgstr ""
+
+#: framework/options/options-data.php:1197
+#: framework/options/options-data.php:1198
+msgid "Sidebar backgrounds"
+msgstr ""
+
+#: framework/options/options-data.php:1239
+msgid "Fonts"
+msgstr ""
+
+#: framework/options/options-data.php:1243
+msgid ""
+"Enable Google Web Fonts"
+msgstr ""
+
+#: framework/options/options-data.php:1244
+msgid ""
+"Enable Google Web fonts"
+msgstr ""
+
+#: framework/options/options-data.php:1249
+msgid ""
+"Slideshow Title font"
+msgstr ""
+
+#: framework/options/options-data.php:1250
+msgid ""
+"Select font for "
+"slideshow title"
+msgstr ""
+
+#: framework/options/options-data.php:1257
+msgid ""
+"Slideshow Caption font"
+msgstr ""
+
+#: framework/options/options-data.php:1258
+msgid ""
+"Select font for "
+"slideshow caption"
+msgstr ""
+
+#: framework/options/options-data.php:1265
+msgid "Hero image title"
+msgstr ""
+
+#: framework/options/options-data.php:1266
+msgid ""
+"Select font for hero "
+"title"
+msgstr ""
+
+#: framework/options/options-data.php:1273
+msgid "Menu Font"
+msgstr ""
+
+#: framework/options/options-data.php:1274
+msgid "Select menu font"
+msgstr ""
+
+#: framework/options/options-data.php:1281
+msgid ""
+"Heading Font (applies to "
+"all headings)"
+msgstr ""
+
+#: framework/options/options-data.php:1282
+msgid "Select heading font"
+msgstr ""
+
+#: framework/options/options-data.php:1289
+msgid "Contents"
+msgstr ""
+
+#: framework/options/options-data.php:1290
+msgid ""
+"Select font for headings "
+"inside posts and pages"
+msgstr ""
+
+#: framework/options/options-data.php:1297
+msgid "Custom Font"
+msgstr ""
+
+#: framework/options/options-data.php:1302
+msgid "Font Embed Code"
+msgstr ""
+
+#: framework/options/options-data.php:1303
+msgid ""
+"eg. &lt;link "
+"href='http://fonts."
+"googleapis.com/css?"
+"family=Lobster' "
+"rel='stylesheet' "
+"type='text/css'&gt;"
+msgstr ""
+
+#: framework/options/options-data.php:1308
+msgid ""
+"CSS Codes for Custom Font"
+msgstr ""
+
+#: framework/options/options-data.php:1309
+msgid ""
+"eg. .entry-title h1 "
+"{ font-family: "
+"'Lobster', cursive; }"
+msgstr ""
+
+#: framework/options/options-data.php:1314
+msgid "WPML"
+msgstr ""
+
+#: framework/options/options-data.php:1318
+#: framework/options/options-data.php:1319
+msgid ""
+"Enable Built-in WPML "
+"language selector"
+msgstr ""
+
+#: framework/options/options-data.php:1324
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/options/options-data.php:1328
+msgid ""
+"WooCommerce Shop default "
+"title"
+msgstr ""
+
+#: framework/options/options-data.php:1329
+msgid ""
+"Shop title for "
+"WooCommerce shop. "
+"( default 'Shop' )."
+msgstr ""
+
+#: framework/options/options-data.php:1335
+msgid ""
+"Shop Archive with sidebar"
+msgstr ""
+
+#: framework/options/options-data.php:1336
+msgid ""
+"Display shop archive "
+"with sidebar"
+msgstr ""
+
+#: framework/options/options-data.php:1341
+msgid "Footer"
+msgstr ""
+
+#: framework/options/options-data.php:1345
+msgid ""
+"Vertical Menu footer "
+"Copyright text"
+msgstr ""
+
+#: framework/options/options-data.php:1346
+msgid ""
+"Enter vertical menu "
+"copyright text"
+msgstr ""
+
+#: framework/options/options-data.php:1351
+msgid ""
+"Page footer Copyright "
+"text"
+msgstr ""
+
+#: framework/options/options-data.php:1352
+msgid ""
+"Enter your copyright and "
+"other texts to display "
+"in page footer"
+msgstr ""
+
+#: framework/options/options-data.php:1357
+msgid "Export"
+msgstr ""
+
+#: framework/options/options-data.php:1361
+msgid ""
+"Export Options ( Copy "
+"this ) Read-Only."
+msgstr ""
+
+#: framework/options/options-data.php:1362
+msgid ""
+"Select All, copy and "
+"store your theme options "
+"backup. You can use "
+"these value to import "
+"theme options settings."
+msgstr ""
+
+#: framework/options/options-data.php:1373
+msgid ""
+"Import Options ( Paste "
+"and Save )"
+msgstr ""
+
+#: framework/options/options-data.php:1374
+msgid ""
+"CAUTION: Copy and Paste "
+"the Export Options "
+"settings into the window "
+"and Save to apply theme "
+"options settings."
+msgstr ""
+
+#: functions.php:193
+msgid "Previous"
+msgstr ""
+
+#: functions.php:199
+msgid "Gallery"
+msgstr ""
+
+#: functions.php:205
+msgid "Next"
+msgstr ""
+
+#: functions.php:1261
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions.php:1263
+msgid ""
+"Default sidebar selected "
+"for pages, blog posts "
+"and archives."
+msgstr ""
+
+#: functions.php:1271
+msgid ""
+"Default Portfolio Sidebar"
+msgstr ""
+
+#: functions.php:1273
+msgid ""
+"Default sidebar for "
+"portfolio pages."
+msgstr ""
+
+#: functions.php:1280
+msgid ""
+"Default Events Sidebar"
+msgstr ""
+
+#: functions.php:1282
+msgid ""
+"Default sidebar for "
+"events pages."
+msgstr ""
+
+#: functions.php:1291
+msgid ""
+"Default WooCommerce "
+"Sidebar"
+msgstr ""
+
+#: functions.php:1293
+msgid ""
+"Default sidebar for "
+"woocommerce pages."
+msgstr ""
+
+#: functions.php:1318
+msgid "Menu Social"
+msgstr ""
+
+#: functions.php:1327
+msgid "Mobile Social"
+msgstr ""
+
+#: includes/share-this.php:42
+msgid "Share"
+msgstr ""
+
+#: loop-page.php:18
+#: template-blank.php:30
+#: template-parts/postformats/post-contents.php:104
+msgid "Pages:"
+msgstr ""
+
+#: page-comments.php:12
+msgid "No Responses"
+msgstr ""
+
+#: page-comments.php:12
+msgid "One Response"
+msgstr ""
+
+#: page-comments.php:12
+msgid "% Responses"
+msgstr ""
+
+#: page-comments.php:46
+msgid "Leave a reply"
+msgstr ""
+
+#: search.php:59
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:60
+msgid ""
+"Sorry, but nothing "
+"matched your search "
+"criteria. Please try "
+"again with different "
+"keywords."
+msgstr ""
+
+#: searchform.php:3
+#: template-parts/mobile-searchform.php:3
+#: woocommerce/product-searchform.php:26
+msgid "Search"
+msgstr ""
+
+#: single-mtheme_clients.php:50
+msgid "Proofing Galleries"
+msgstr ""
+
+#: single-mtheme_featured.php:64
+msgid ""
+"<h1>Fullscreen type not "
+"found.</h1>"
+msgstr ""
+
+#: single-mtheme_proofing.php:65
+msgid ""
+"Proofing gallery "
+"selection has been "
+"locked."
+msgstr ""
+
+#: single-mtheme_proofing.php:66
+msgid ""
+"Proofing gallery is "
+"active for selection."
+msgstr ""
+
+#: single-mtheme_proofing.php:68
+msgid ""
+"Please contact us to "
+"activate this proofing "
+"gallery."
+msgstr ""
+
+#: single-mtheme_proofing.php:69
+msgid ""
+"Proofing gallery Locked "
+"for Download."
+msgstr ""
+
+#: single-mtheme_proofing.php:83
+msgid "Download"
+msgstr ""
+
+#: template-parts/author-bio.php:2
+msgid "Published by"
+msgstr ""
+
+#: template-parts/author-bio.php:17
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: template-parts/header-title.php:49
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: template-parts/header-title.php:51
+#, php-format
+msgid ""
+"Monthly Archives: %s"
+msgstr ""
+
+#: template-parts/header-title.php:53
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: template-parts/header-title.php:55
+msgid "Author Archives: "
+msgstr ""
+
+#: template-parts/header-title.php:57
+#, php-format
+msgid "Category : %s"
+msgstr ""
+
+#: template-parts/header-title.php:59
+#, php-format
+msgid "Tag : %s"
+msgstr ""
+
+#: template-parts/header-title.php:61
+#, php-format
+msgid ""
+"Search Results for: %s"
+msgstr ""
+
+#: template-parts/home-fullscreen.php:70
+msgid ""
+"<h1>No Fullscreen post "
+"selected in theme "
+"options.</h1>"
+msgstr ""
+
+#: template-parts/post-summary-small.php:89
+#: template-parts/postformats/post-contents.php:74
+#: template-parts/postformats/post-data.php:64
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34
+#: woocommerce/cart/cart.php:53
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35
+#: woocommerce/cart/cart.php:82
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36
+#: woocommerce/cart/cart.php:88
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37
+#: woocommerce/cart/cart.php:105
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:77
+msgid ""
+"Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:114
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:134
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:134
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:134
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:140
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:47
+msgid "Placeholder"
+msgstr ""
