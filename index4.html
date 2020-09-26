@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: white;
+            color: #666666;
+            font-family: "Open sans", Sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        h1 {
+            margin-top: 0;
+        }
+        
+        #contentWrapper {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        
+        #contentLeft {
+            z-index: 10;
+            width: 30%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #283c51;
+        }
+        
+        #contentRight {
+            padding: 1.3rem 2rem;
+            margin-left: 30%;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            background: #263238;
+            font-family: 'Roboto';
+        }
+        
+        button {
+            background: none;
+            border: none;
+        }
+        
+        button::-moz-focus-inner {
+            border: 0;
+        }
+        
+         :focus {
+            outline: none;
+        }
+        
+         ::-moz-focus-inner {
+            border: 0;
+        }
+        
+        .btn-nav:hover {
+            cursor: pointer;
+        }
+        
+        .btn-nav:hover .bar {
+            background: #17BEBB;
+        }
+        
+        .bar {
+            display: block;
+            height: 5px;
+            width: 50px;
+            background: #fff;
+            margin: 10px auto;
+        }
+        
+        .btn-nav {
+            display: block;
+            padding: 15px 0;
+            width: 50px;
+            position: fixed;
+            left: 20px;
+            margin: 0 auto;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            transition: all 1s ease;
+        }
+        
+        .btn-nav:focus {
+            outline: none;
+        }
+        
+        .middle {
+            margin: 0 auto;
+        }
+        
+        .bar {
+            -webkit-transition: all .7s ease;
+            -moz-transition: all .7s ease;
+            -ms-transition: all .7s ease;
+            -o-transition: all .7s ease;
+            transition: all .7s ease;
+        }
+        
+        .animated {
+            z-index: 999;
+        }
+        
+        .animated .arrow-top-r {
+            -webkit-transform: rotateZ(-45deg) translateY(11px);
+            -moz-transform: rotateZ(-45deg) translateY(11px);
+            -ms-transform: rotateZ(-45deg) translateY(11px);
+            -o-transform: rotateZ(-45deg) translateY(11px);
+            transform: rotateZ(-45deg) translateY(11px);
+            width: 25px;
+        }
+        
+        .animated .arrow-middle-r {
+            -webkit-transform: translateX(25px);
+            -moz-transform: translateX(25px);
+            -ms-transform: translateX(25px);
+            -o-transform: translateX(25px);
+            transform: translateX(25px);
+        }
+        
+        .animated .arrow-bottom-r {
+            -webkit-transform: rotateZ(45deg) translateY(-11px);
+            -moz-transform: rotateZ(45deg) translateY(-11px);
+            -ms-transform: rotateZ(45deg) translateY(-11px);
+            -o-transform: rotateZ(45deg) translateY(-11px);
+            transform: rotateZ(45deg) translateY(-11px);
+            width: 25px;
+        }
+        
+        .nav-container {
+            position: absolute;
+            left: -50%;
+            top: 0;
+            background: #CD5334;
+            height: 100%;
+            width: 60%;
+        }
+        
+        .nav-list {
+            cursor: pointer;
+            list-style-type: none;
+            top: 50%;
+            text-align: center;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        
+        .list-item {
+            margin: 20px auto;
+            border: 2px solid #fff;
+            width: 50px;
+            padding: 15px;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            transition: all 1s ease;
+        }
+        
+        .list-item:hover {
+            border: 2px solid #17BEBB;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            transition: all 1s ease;
+        }
+        
+        .list-item:hover .fa {
+            color: #17BEBB;
+            -webkit-transform: scale(1.5);
+            -moz-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            transform: scale(1.5);
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            transition: all 1s ease;
+        }
+        
+        .list-item a {
+            color: #fff;
+            font-size: 1.7em;
+            display: block;
+            width: 100%;
+        }
+        
+        .fa {
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            transition: all 1s ease;
+        }
+        
+        @keyframes showNav {
+            from {
+                left: -100%;
+            }
+            to {
+                left: 0;
+            }
+        }
+        
+        @-webkit-keyframes showNav {
+            from {
+                left: -100%;
+            }
+            to {
+                left: 0;
+            }
+        }
+        
+        @-moz-keyframes showNav {
+            from {
+                left: -100%;
+            }
+            to {
+                left: 0;
+            }
+        }
+        
+        @-o-keyframes showNav {
+            from {
+                left: -100%;
+            }
+            to {
+                left: 0;
+            }
+        }
+        
+        .showNav {
+            -webkit-animation: showNav .5s ease forwards;
+            -moz-animation: showNav 1s ease forwards;
+            -o-animation: showNav 1s ease forwards;
+            animation: showNav .5s ease forwards;
+        }
+        
+        @keyframes hideNav {
+            from {
+                left: 0;
+            }
+            to {
+                left: -100%;
+            }
+        }
+        
+        @-webkit-keyframes hideNav {
+            from {
+                left: 0;
+            }
+            to {
+                left: -100%;
+            }
+        }
+        
+        @-moz-keyframes hideNav {
+            from {
+                left: 0;
+            }
+            to {
+                left: -100%;
+            }
+        }
+        
+        @-o-keyframes hideNav {
+            from {
+                left: 0;
+            }
+            to {
+                left: -100%;
+            }
+        }
+        
+        .hideNav {
+            -webkit-animation: hideNav 1s ease forwards;
+            -moz-animation: hideNav 1s ease forwards;
+            -o-animation: hideNav 1s ease forwards;
+            animation: hideNav 1s ease forwards;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        h1 {
+            position: absolute;
+            top: 150px;
+            left: 250px;
+            color: #fff;
+        }
+        
+        .jquery-script-ads {
+            position: absolute;
+            top: 350px;
+            left: 250px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/brands.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/regular.min.css">
+    <link rel="stylesheet" href="css/solid.min.css">
+    <link rel="stylesheet" href="css/svg-with-js.min.css">
+    <link rel="stylesheet" href="css/v4-shims.min.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600" rel="stylesheet" type="text/css">-->
+    <!--<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
+
+    <!-- Javascript / Jquery -->
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/khl-scripts.js"></script>
+
+    <!-- Jquery CSS -->
+
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <title>New Index 3</title>
+
+    <script>
+        $(window).load(function() {
+            $(".btn-nav").on("click tap", function() {
+                $(".nav-container").toggleClass("showNav hideNav").removeClass("hidden");
+                $(this).toggleClass("animated");
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <div id="contentWrapper">
+        <div id="contentLeft">
+            <button class="btn-nav">
+                <div class="bar arrow-top-r"></div>
+                <div class="bar arrow-middle-r"></div>
+                <div class="bar arrow-bottom-r"></div>
+              </button>
+            <nav class="nav-container hidden hideNav">
+                <ul class="nav-list">
+                    <li class="list-item"><a href=""><i class="fa fa-home"></i></a></li>
+                    <li class="list-item"><a href=""><i class="fa fa-credit-card-alt"></i></a></li>
+                    <li class="list-item"><a href=""><i class="fa fa-usb"></i></a></li>
+                    <li class="list-item"><a href=""><i class="fa fa-edge"></i></a></li>
+                    <li class="list-item"><a href=""><i class="fa fa-shopping-basket"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="contentRight">
+            Your main content goes here
+        </div>
+    </div>
+</body>
+
+
+
+</html>

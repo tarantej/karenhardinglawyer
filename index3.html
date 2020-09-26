@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: white;
+            color: #666666;
+            font-family: "Open sans", Sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        h1 {
+            margin-top: 0;
+        }
+        
+        #contentWrapper {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        
+        #contentLeft {
+            z-index: 10;
+            width: 30%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #283c51;
+        }
+        
+        #contentRight {
+            padding: 1.3rem 2rem;
+            margin-left: 30%;
+        }
+        
+        .accordion-menu {
+            width: 20%;
+            min-width: 300px;
+            margin: 20% 10%;
+            display: inline-block;
+            line-height: 18px;
+        }
+        
+        .accordion-menu .menu {
+            width: 100%;
+        }
+        
+        .accordion-menu ul {
+            list-style: none;
+        }
+        
+        .accordion-menu .menu li a {
+            color: #494949;
+            display: block;
+            padding: 15px 20px;
+            background: #e9e9e9;
+        }
+        
+        .accordion-menu .menu li a:hover {
+            background: #16a085;
+            color: #fff;
+        }
+        
+        .accordion-menu .menu i.fa {
+            font-size: 12px;
+            line-height: 18px;
+            float: right;
+            margin-left: 10px;
+        }
+        
+        .accordion-menu .menu ul {
+            display: none;
+        }
+        
+        .accordion-menu .menu ul li a {
+            background: #424242;
+            color: #e9e9e9;
+        }
+        
+        .accordion-menu .menu .active>a {
+            background: #16a085;
+            color: #fff;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600" rel="stylesheet" type="text/css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Javascript / Jquery -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/khl-scripts.js"></script>
+
+    <!-- Jquery CSS -->
+
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <title>New Index 2</title>
+
+    <!--<script>
+        $(document).ready(function() {
+            $('.menu li:has(ul)').click(function(e) {
+                e.preventDefault();
+
+                if ($(this).hasClass('active')) {
+                    $(this).removeClass('active');
+                    $(this).children('ul').slideUp();
+                } else {
+                    $('.menu li ul').slideUp();
+                    $('.menu li').removeClass('active');
+                    $(this).addClass('active');
+                    $(this).children('ul').slideDown();
+                }
+
+                $('.menu li ul li a').click(function() {
+                    window.location.href = $(this).attr('href');
+                })
+            });
+        });
+    </script>-->
+</head>
+
+<body>
+
+    <div id="contentWrapper">
+        <div id="contentLeft">
+            <div class="accordion-menu">
+                <!-- <a href="" class="btnMenu">Menu <i class="fa fa-bars"></i></a> -->
+
+                <ul class="menu">
+                    <li><a href="#">Element 1</a></li>
+                    <li class=""><a href="#">Element 2 <i class="fa fa-chevron-down"></i></a>
+                        <ul style="display: none;">
+                            <li><a href="#">Sub-Element #1</a></li>
+                            <li><a href="#">Sub-Element #2</a></li>
+                            <li><a href="#">Sub-Element #3</a></li>
+                            <li><a href="#">Sub-Element #4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Element 3</a></li>
+                    <li><a href="#">Element 4 <i class="fa fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Sub-Element #1</a></li>
+                            <li><a href="#">Sub-Element #2</a></li>
+                            <li><a href="#">Sub-Element #3</a></li>
+                            <li><a href="#">Sub-Element #4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Element 5</a></li>
+                    <li><a href="#">Element 6</a></li>
+                    <li><a href="#">Element 7 <i class="fa fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Sub-Element #1</a></li>
+                            <li><a href="#">Sub-Element #2</a></li>
+                            <li><a href="#">Sub-Element #3</a></li>
+                            <li><a href="#">Sub-Element #4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Element 8</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="contentRight">
+            Your main content goes here
+        </div>
+    </div>
+</body>
+
+
+
+</html>
